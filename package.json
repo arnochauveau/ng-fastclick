@@ -1,15 +1,25 @@
 {
-  "name": "ng-fastclick",
-  "version": "1.0.2",
-  "scripts": {
-    "build": "gulp"
-  },
-  "author": "Paul Sweeney <paul@fullscreen.net>",
-  "license": "MIT",
-  "dependencies": {
-    "fastclick": "^1.0.6",
-    "gulp": "^3.8.7",
-    "gulp-concat": "^2.3.4",
-    "gulp-uglify": "^0.3.1"
-  }
+    "author": {
+        "name": "Paul Sweeney",
+        "email": "paul@fullscreen.net"
+    },
+    "dependencies": {
+        "fastclick": "^1.0.6",
+        "gulp": "^3.8.7",
+        "gulp-concat": "^2.3.4",
+        "gulp-uglify": "^0.3.1"
+    },
+    "description": "This is a very thin (3 line!) Angular wrapper around the [FT's](https://github.com/ftlabs) fantastic [FastClick](https://github.com/ftlabs/fastclick)",
+    "devDependencies": {},
+    "gitHead": "d74a6b674f7093ab3bd459cfc51316924ec0e9a5",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "name": "ng-fastclick",
+    "optionalDependencies": {},
+    "readme": "# ng-fastclick\r\n\r\nThis is a very thin (3 line!) Angular wrapper around the [FT's](https://github.com/ftlabs) fantastic [FastClick](https://github.com/ftlabs/fastclick)\r\n\r\n## Installation\r\n\r\nIn your Angular project, run `bower install --save ng-fastclick` to save the\r\nmodule. Then, in your HTML, add:\r\n\r\n``` html\r\n<script src=\"/path/to/bower_components/ng-fastclick/dist/index.min.js\"></script>\r\n```\r\n\r\nAnd lastly, in your Angular module, include `ng-fastclick` as a dependency:\r\n\r\n``` javascript\r\nangular.module('my-app', ['ng-fastclick'])\r\n```\r\n\r\n",
+    "readmeFilename": "README.md",
+    "scripts": {
+        "build": "gulp"
+    },
+    "version": "1.0.2"
 }
